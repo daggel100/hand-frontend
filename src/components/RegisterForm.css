@@ -1,0 +1,57 @@
+.register-form {
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Nunito", sans-serif;
+  color: var(--text-color); /* aus app.css */
+}
+.register-form label {
+  display: block;
+  margin-bottom: 1em;
+  color: var(--text-color); /* statt #333 */
+}
+.register-form input {
+  width: 100%;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-top: 0.3em;
+  box-sizing: border-box;
+}
+.register-form fieldset {
+  border: none;
+  padding: 0;
+}
+.register-form legend {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: var(--text-color);
+}
+.register-form button {
+  padding: 0.8em 1.5em;
+  background-color: #222a35/*ondary); /* skyBlue */
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.register-form button:hover:not([disabled]) {
+  background-color: var(--bg-tertiary); /* mint */
+}
+.register-form button[disabled] {
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}
+.register-form p {
+  color: var(--warning-color); /* coral */
+  margin-top: 1em;
+  font-weight: bold;
+}
+
